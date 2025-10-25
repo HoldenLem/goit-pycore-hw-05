@@ -2,7 +2,7 @@ import re
 from typing import Iterable, Callable
 
 
-def generator_numbers(text: str) -> Iterable[float]:
+def generator_numbers(text: str) :
     """
         Generate all valid floating-point numbers from the given text.
     """
