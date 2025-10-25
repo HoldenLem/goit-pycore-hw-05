@@ -1,4 +1,7 @@
 def caching_fibonacci():
+    """
+    Create a Fibonacci function with memoization
+    """
     cache = {}
 
     def fibonacci(n: int) -> int:
