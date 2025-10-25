@@ -1,5 +1,5 @@
-from task.task1 import caching_fibonacci
-from task.task2 import sum_profit, generator_numbers
+from src.task.task1 import caching_fibonacci
+from src.task.task2 import sum_profit, generator_numbers
 
 
 def main():

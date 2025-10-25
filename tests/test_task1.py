@@ -1,4 +1,4 @@
-from task.task1 import caching_fibonacci
+from src.task.task1 import caching_fibonacci
 
 
 def test_caching_fibonacci_zero():

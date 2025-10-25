@@ -1,4 +1,4 @@
-from task.task2 import generator_numbers, income, sum_profit
+from src.task.task2 import generator_numbers, income, sum_profit
 
 SILY_TEXT = "340 50.00 0.90"
 
