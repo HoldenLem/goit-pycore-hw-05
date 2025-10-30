@@ -18,6 +18,7 @@ def change_contact(args, contacts) -> str:
     contacts[name] = new_phone
     return f"Phone number for {name} updated to {new_phone}."
 
+
 @input_error
 def get_phone(args, contacts) -> str:
     name = args[0]
@@ -29,4 +30,3 @@ def show_all(contacts) -> str:
     if not contacts:
         return "No contacts yet."
     return "Contacts list: " + "\n".join(f"{name}: {phone}" for name, phone in contacts.items())
-
