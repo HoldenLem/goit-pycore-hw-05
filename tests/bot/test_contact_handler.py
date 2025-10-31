@@ -12,6 +12,7 @@ INVALID_FORMAT_MESSAGE = (
 def contacts():
     return {}
 
+
 def test_valid_add_contact(contacts):
     result = ch.add_contact(["Alice", "+12345678901"], contacts)
     assert result == "Contact Alice added with phone +12345678901."

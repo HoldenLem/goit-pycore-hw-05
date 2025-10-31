@@ -1,4 +1,9 @@
-from src.bot.contact_handler import add_contact, change_contact, get_phone, show_all
+from src.bot.contact_handler import (
+    add_contact,
+    change_contact,
+    get_phone,
+    show_all,
+)
 
 
 def parse_input(user_input: str) -> tuple[str, list[str]]:

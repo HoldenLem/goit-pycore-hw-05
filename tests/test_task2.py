@@ -11,11 +11,11 @@ def test_valid_generator_numbers():
 
 
 def test_income_matcher():
-    assert income(' ') == False
-    assert income("sily") == False
-    assert income("10") == True
-    assert income("10.01") == True
-    assert income(".90") == False
+    assert income(' ') is False
+    assert income("sily") is False
+    assert income("10") is True
+    assert income("10.01") is True
+    assert income(".90") is False
 
 
 def test_sum_profit():

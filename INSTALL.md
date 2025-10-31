@@ -11,7 +11,7 @@ Clone the project to your local machine:
 ```bash
 git clone <repository-url>
 cd goit-pycore-hw-05
-```
+```к
 
 ## 3. Create a Virtual Environment (Recommended)
 ```bash

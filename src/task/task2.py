@@ -2,7 +2,7 @@ import re
 from typing import Callable
 
 
-def generator_numbers(text: str) :
+def generator_numbers(text: str):
     """
         Generate all valid floating-point numbers from the given text.
     """
@@ -20,7 +20,8 @@ def sum_profit(text: str, func: Callable):
 
 def income(text_element: str) -> bool:
     """
-        Checks if the text element is a valid number (integer or decimal with up to 2 digits after the dot).
+        Checks if the text element is a valid number
+        (integer or decimal with up to 2 digits after the dot).
     """
     if re.match(r'^(?:0|[1-9]\d*)(?:\.\d{1,2})?$', text_element):
         return True

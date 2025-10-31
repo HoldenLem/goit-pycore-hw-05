@@ -29,4 +29,7 @@ def get_phone(args, contacts) -> str:
 def show_all(contacts) -> str:
     if not contacts:
         return "No contacts yet."
-    return "Contacts list: " + "\n".join(f"{name}: {phone}" for name, phone in contacts.items())
+    return (
+            "Contacts list: "
+            + "\n".join(f"{name}: {phone}" for name, phone in contacts.items())
+    )
