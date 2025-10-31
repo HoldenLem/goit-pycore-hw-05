@@ -1,6 +1,6 @@
-from src.task.task2 import generator_numbers, income, sum_profit
+from src.task.task2 import generator_numbers, sum_profit
 
-SILY_TEXT = "340 50.00 0.90"
+SILY_TEXT = " 340 50.00 0.90 "
 
 
 def test_valid_generator_numbers():
@@ -8,14 +8,6 @@ def test_valid_generator_numbers():
     assert next(sily_generator) == 340
     assert next(sily_generator) == 50.00
     assert next(sily_generator) == 0.90
-
-
-def test_income_matcher():
-    assert income(' ') is False
-    assert income("sily") is False
-    assert income("10") is True
-    assert income("10.01") is True
-    assert income(".90") is False
 
 
 def test_sum_profit():
