@@ -2,7 +2,7 @@ import re
 from typing import Callable, Generator
 
 _NUMBER_PATTERN = re.compile(
-    r"(?<=\s)(?:0|[1-9]\d*)(?:\.\d{1,2})?(?=\s)"
+    r"(?<=\s)\d+(?:\.\d+)?(?=\s)"
 )
 
 
